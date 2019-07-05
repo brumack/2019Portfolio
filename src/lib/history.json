@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "type": "work",
+            "name": "DoorDash",
+            "image": "doordash.png",
+            "date": "June 2019 - present",
+            "detail": "Drive Live Ops Support",
+            "description": "Actively monitored deliveries in real time. Developed Chrome extension which greatly augmented internal tooling, providing more meaningful data which resulted in increased employee accuracy."
+        },
+        {
+            "type": "work",
+            "name": "MBT One LLC",
+            "image": "dollar.png",
+            "date": "June 2018 - October 2018",
+            "detail": "Contract Software Developer",
+            "description": "Sole developer of a greenfield project which automatically traded financial assets via online exchanges based upon web scraping and textual analysis of strategic news sources. SMS notifications sent via Twilio."
+        },
+        {
+            "type": "work",
+            "name": "Weebly",
+            "image": "Weebly.png",
+            "date": "October 2015 - September 2017",
+            "detail": "Customer Success Advocate",
+            "description": "Consulted new and existing users on website design and how to best use the platform."
+        },
+        {
+            "type": "edu", 
+            "name": "Free Code Camp",
+            "image": "fcc.png",
+            "date": "2017 -",
+            "detail": ["FreeCodeCamp Profile", "https://www.freecodecamp.org/brumack"],
+            "description": "Certifications: \nFrontend Developer, APIs and Microservices, Javacript Algorithms and Data Structures"
+        },
+        {
+            "type": "edu",
+            "name": "Udemy",
+            "image": "udemy.png",
+            "date": "2017 -",
+            "detail": ["Udemy Profile", "https://www.udemy.com/user/bradley-rumack/"]
+        },
+        {
+            "type": "edu",
+            "name": "CSU, Long Beach",
+            "image": "csulb.jpeg",
+            "date": "2010-2013",
+            "detail": ["Finance major"]
+        }
+    ]
+}    
+  
+  

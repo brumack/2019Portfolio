@@ -1,0 +1,32 @@
+#nav {
+    background: #000;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 8%);
+}
+
+#nav a:link {
+    text-decoration: none;
+}
+
+.navIcon {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    color: #fff;
+    border-bottom: 1px solid #555;
+}
+
+.navIcon:hover, .navIcon:active {
+    background: #fff;
+    color: #000;
+}
+
+
+
+.navIcon i {
+    font-size: 2rem;
+}
