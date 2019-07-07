@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from './Nav.js';
 import Profile from './Profile';
 import History from './History';
+import Projects from './Projects';
 import './App.css';
 
 class App extends React.Component {
@@ -13,6 +14,8 @@ class App extends React.Component {
         return <Profile />;
       case 'history':
         return <History />;
+      case 'projects':
+        return <Projects />
       default:
         throw 'error'
     }

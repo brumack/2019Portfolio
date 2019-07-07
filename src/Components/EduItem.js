@@ -1,12 +1,11 @@
 import React from 'react';
-import './EduItem.css';
 
 const EduItem = props => {
     const { image, name, date, detail, description } = props.info
     return (
         <div className='item'>
-            <img src={ `${process.env.PUBLIC_URL}/images/${image}` } />
-            <div>
+            <img src={ `${process.env.PUBLIC_URL}/images/${image}` } alt={name}/>
+            <div class='title'>
                 <h2>{ name }</h2>
                 <span>{ date }</span>
                 { linkOrNo(detail) }

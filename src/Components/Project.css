@@ -1,0 +1,29 @@
+#Projects .item {
+	grid-template-rows: 1fr 2fr;
+}
+
+#Projects .item img {
+	grid-row-start: 1;
+	grid-row-end: 3;
+	height: 110px;
+	justify-self: end;
+	align-self: start;
+}
+
+@media only screen and (max-width: 1200px) {
+	#Projects .item {
+		grid-template-columns: 1fr 5fr;
+	}
+
+	#Projects .item img {
+		justify-self: center;
+		grid-row-start: 2;
+		grid-row-end: 3;
+		justify-self: end;
+	}
+
+	#Projects .item .title {
+		grid-column-start: 2;
+		grid-column-end: 3;
+	}
+}

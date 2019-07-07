@@ -10,29 +10,29 @@ class Nav extends React.Component {
                         <i class="fas fa-user-ninja"></i>
                     </div>
                 </a>
-                <a href='#'>
+                <a href='#' onClick={() => this.props.changeView('projects')}>
                     <div class='navIcon'>
-                        <i style={{'color': '#9c00c7'}} class="fas fa-code"></i>
+                        <i class="fas fa-code"></i>
                     </div>
                 </a>
                 <a href='#' onClick={() => this.props.changeView('history')}>
                     <div class='navIcon'>
-                        <i style={{'color': '#FFA600'}} class="fas fa-history"></i>
+                        <i class="fas fa-history"></i>
                     </div>
                 </a>
-                <a href='https://github.com/brumack'>
+                <a href='https://github.com/brumack' target='_blank' rel='noopener noreferrer'>
                     <div class='navIcon'>
-                        <i style={{'color': '#6CC644'}} class="fab fa-github"></i>
+                        <i class="fab fa-github"></i>
                     </div>
                 </a>
-                <a href='https://www.linkedin.com/in/bradleyrumack'>
+                <a href='https://www.linkedin.com/in/bradleyrumack' target='_blank' rel='noopener noreferrer'>
                     <div class='navIcon'>
-                        <i style={{'color': '#0077B5'}} class="fab fa-linkedin"></i>
+                        <i class="fab fa-linkedin"></i>
                     </div>
                 </a>
                 <a href='#'>
                     <div class='navIcon'>
-                        <i style={{'color': '#D1002A'}} class="fas fa-phone"></i>
+                        <i class="fas fa-phone"></i>
                     </div>
                 </a>
             </div>

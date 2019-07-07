@@ -1,0 +1,69 @@
+{
+	"items": [
+		{
+			"name": "Binance API Library",
+			"short_description": "NodeJs library integrating Binance's exchange API",
+			"long_description": [
+				"Node.js library offering fully-functional direct integration with Binance's exchange API. ",
+				"Binance is the leading cryptocurrency exchange."
+			],
+			"repo": "https://github.com/brumack/binance-api-library",
+			"live": null,
+			"icon": "https://wolper.com.au/wp-content/uploads/2017/10/image-placeholder.jpg"
+		},
+		{
+			"name": "EMP (Employee Management Platform)",
+			"short_description": "Workforce and payroll management platform",
+			"long_description": [
+				"RESTful CRUD application designed",
+				" to be custom tailored to small businesses in need of workforce and/or payroll",
+				" management streamlining. Features include employee management, job/task creation,",
+				" employee scheduling, messaging and payroll management."
+			],
+			"repo": "https://github.com/brumack/EMP",
+			"live": null,
+			"icon": "https://wolper.com.au/wp-content/uploads/2017/10/image-placeholder.jpg"
+		},
+		{
+			"name": "Wavez",
+			"short_description": "Crowd-sourced beach reviews and info.",
+			"long_description": [
+				"RESTful CRUD application revolving around crowd-sourced beach info,",
+				" Users can create accounts in order to add new",
+				" beaches or leave comments on beaches currently on record. A demo account",
+				" can be accessed through admin1:admin1"
+			],
+			"repo": "https://github.com/brumack/wavez",
+			"live": "https://wavezapp.herokuapp.com/",
+			"icon": "https://wolper.com.au/wp-content/uploads/2017/10/image-placeholder.jpg"
+		},
+		{
+			"name": "Tetra",
+			"short_description": "Cryptocurrency portfolio manager",
+			"long_description": [
+				"Cryptocurrency portfolio manager. Users create an account,",
+				" and then add their asset or assets they would like to track to their dashboard.",
+				" Balances for each asset can be added, and a total portfolio balance is calculated.",
+				" A demo account can be accessed under demo@demo.com:demodemo."
+			],
+			"repo": "https://github.com/brumack/tetra",
+			"live": "https://tetra-crypto.herokuapp.com/",
+			"icon": "https://wolper.com.au/wp-content/uploads/2017/10/image-placeholder.jpg"
+		},
+		{
+			"name": "netBot",
+			"short_description": "Automated cryptocurrency trading bot",
+			"long_description": [
+				"Automated cryptocurrency trading script. Through continuous",
+				" statisctial analysis of price action, Netbot watches every single",
+				" trade for specific conditions. Should those conditions occur, a buy order is",
+				" placed at a specific rate and left for a period of time. If the order fills,",
+				" a sell order is then placed at a specific rate, while the script watches for",
+				" a potential stop-loss condition."
+			],
+			"repo": "https://github.com/brumack/netBot",
+			"live": "null",
+			"icon": "https://wolper.com.au/wp-content/uploads/2017/10/image-placeholder.jpg"
+		}
+	]
+}
