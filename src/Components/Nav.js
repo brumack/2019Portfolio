@@ -2,9 +2,15 @@ import React from 'react'
 import './Nav.css'
 
 class Nav extends React.Component {
+
     render() {
         return (
             <div id='nav'>
+                <a href='#' id='mobileHamburger' onClick={this.toggleMobileNav}>
+                    <div class='navIcon'>
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </a>
                 <a href='#' onClick={() => this.props.changeView('profile')}>
                     <div class='navIcon'>
                         <i class="fas fa-user-ninja"></i>

@@ -11,7 +11,7 @@ a {
 	width: 90%;
 	margin: 0 auto;
 	display: grid;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 .item img {

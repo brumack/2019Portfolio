@@ -38,16 +38,29 @@ a[href='https://www.linkedin.com/in/bradleyrumack']:hover i {
 	color: #0077b5;
 }
 
+#mobileHamburger {
+	display: none;
+}
+
+
 @media only screen and (max-width: 1200px) {
 	#nav {
 		grid-template-columns: repeat(6, 8%);
 		grid-template-rows: 100%;
 		width: 100%;
-		height: 100%;
+		height: 60px;
 		justify-self: end;
 	}
 
+	a {
+		display: none;
+	}
+
+	#mobileHamburger {
+		display: block;
+	}
+
 	.navIcon {
-		width: 100px;
+		border: none;
 	}
 }

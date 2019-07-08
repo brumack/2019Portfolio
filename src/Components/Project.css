@@ -1,5 +1,7 @@
 #Projects .item {
 	grid-template-rows: 1fr 2fr;
+	grid-template-columns: 20% 80%;
+	grid-column-gap: 10px;
 }
 
 #Projects .item img {
